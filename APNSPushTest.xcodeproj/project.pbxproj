@@ -24,6 +24,7 @@
 		0E55DF2F2757572C00677D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E55DF322757572C00677D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E55DF342757572C00677D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E55DF3A2757584C00677D80 /* APNSPushTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APNSPushTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		0E55DF252757572900677D80 /* APNSPushTest */ = {
 			isa = PBXGroup;
 			children = (
+				0E55DF3A2757584C00677D80 /* APNSPushTest.entitlements */,
 				0E55DF262757572900677D80 /* AppDelegate.swift */,
 				0E55DF282757572900677D80 /* SceneDelegate.swift */,
 				0E55DF2A2757572900677D80 /* ViewController.swift */,
@@ -287,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APNSPushTest/APNSPushTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = STJ3K84EP5;
@@ -302,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkm.bix.APNSPushTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkm.jenogguk.APNSPushTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APNSPushTest/APNSPushTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = STJ3K84EP5;
@@ -330,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinkm.bix.APNSPushTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkm.jenogguk.APNSPushTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
